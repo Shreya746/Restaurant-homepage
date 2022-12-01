@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RS Restaurant</title>
+</head>
+<style>
+    body{
+        background-color:#2F4F4F;
+    }
+    .img1{
+    
+        background-image : url("https://livelazul.com/wp-content/uploads/2019/08/8096fdc05cdf7ecb315031e8fa74cead-w2880-b0-1024x819.jpg");
+        height : 500px;
+        width  : 100%;
+        display: block;
+        background-size: 100% 200%;
+        background-repeat: no-repeat;
+        margin:20px auto 20px auto;
+
+    }
+    .img2{
+        height : 200px;
+        width : 100%;
+        display : inline-block;
+        border-radius: 20px;
+        /* float: left; */
+
+    }
+
+    .searches{
+            display: flex;
+            position:absolute;
+    }
+
+    .top{
+            width :13%;
+            height: auto;
+            margin: 50px 100px 50px 50px;
+            /* position: absolute;
+            left : 40px; */
+            box-shadow: 2px 1px 2px 1px ;
+            border-radius: 8px;
+            background-color: bisque;
+            /* border-radius: 2px; */
+    }
+
+    .main{
+        display: flex;
+
+    }
+    .options{
+        margin: 20px 8px 20px 8px;
+        font-size: 18px;
+        color:white;
+        
+    }
+    .btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #f18a71, #2980b9);
+  background-image: -moz-linear-gradient(top, #f18a71, #2980b9);
+  border-radius: 20px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  text-decoration: none;
+}
+.horzline{
+    width : 10%;
+    border: none;
+    border-top:5px dotted grey;
+
+
+}
+
+
+</style>
+<body>
+    <hr>
+    <div class = "main">
+        <div style = "margin: 15px 8px 20px 8px; color:rgb(245, 175, 175);font-size: 23px;">Website Name</div>
+        <div class="options">Home</div>
+        <div  class="options">Restaurant</div>
+        <div class="options">Veg</div>
+        <div  class="options">Non-Veg</div>
+        <button class="btn" style="position:absolute; right: 200px;margin:12px;">Login</button>
+        <button class ="btn" style="position: absolute; right:300px;margin:12px">Signup</button>    
+    </div>
+    <hr>
+    <div class = "img1">
+  <!-- <img class = "img1" src ="food.jpg" alt = "food image">  -->
+
+
+    </div>
+    <hr class = "horzline" >
+    <h2 style="margin:15px;color:white;">Quick Searches</h2>
+
+    <div class="searches">
+        <div class = "top">
+            <img class="img2" src = "./img5.jpg"></img>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. </span>
+        </div>
+        <div class  = "top">
+            <img  class = "img2"src = "./img2.jpg"></img>
+            <span> At itaque nam minima tenetur cupiditate. Iusto, quis!</span>
+        </div>
+        <div class="top">
+            <img class = "img2"src = "./img3.jpg"></img>
+            <span> Id commodi quia dicta ipsa. Doloribus, quam?</span>
+        </div>
+        <div class="top">
+            <img class = "img2"src = "./img4.jpg"></img>
+            <span>Lorem ipsum dolor sit amet consectetur</span>
+        </div>
+    </div>
+   
+</body>
+</html>
